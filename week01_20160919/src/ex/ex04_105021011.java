@@ -9,8 +9,8 @@ public class ex04_105021011 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	Scanner Leisure = new Scanner(System.in);
-	int a = 64;
+	Scanner scn = new Scanner(System.in);
+	int a = scn.nextInt();
 	System.out.println(Math.sqrt(a));
 	}
 

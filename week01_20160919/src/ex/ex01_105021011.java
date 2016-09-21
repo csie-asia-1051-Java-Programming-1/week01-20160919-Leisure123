@@ -9,10 +9,9 @@ public class ex01_105021011 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    Scanner Leisure = new Scanner(System.in);
-    int F = 102 ; 
-    int C = (F-32)*5/9  ;
-    System.out.println("攝氏為"+C);
+    Scanner scn = new Scanner(System.in);
+    int f = scn . nextInt( ) ; 
+    System.out.println((f-32)*(5.0/9.0));
 	}
 
 }

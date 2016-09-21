@@ -9,8 +9,9 @@ public class ex03_105021011 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    Scanner Leisure = new Scanner(System.in);
-    int a = 3 ; int b = 5 ;
+    Scanner scn = new Scanner(System.in);
+    int a = scn.nextInt() ;
+    int b = scn.nextInt() ;
     System.out.println(Math.pow(a, b));
 	}
 

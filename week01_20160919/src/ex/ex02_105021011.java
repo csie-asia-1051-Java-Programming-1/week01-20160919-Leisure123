@@ -9,10 +9,9 @@ public class ex02_105021011 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	Scanner Leisure = new Scanner(System.in);
-	int g = 10;
-	double a = g/(0.45359);
-	 System.out.println(a+"磅");
+	Scanner scn = new Scanner(System.in);
+	int g = scn.nextInt();
+	 System.out.println(g/(0.45359));
 	}
 
 }
